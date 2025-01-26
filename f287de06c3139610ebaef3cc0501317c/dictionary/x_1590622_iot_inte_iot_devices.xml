@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="df98520ec3139610ebaef3cc050131a6" label="Iot_devices" max_length="40" name="x_1590622_iot_inte_iot_devices" type="collection">
+        <element label="Last Updated" mandatory="true" max_length="40" name="last_updated" type="glide_time"/>
+        <element label="Device Name" mandatory="true" max_length="32" name="device_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Device Type" mandatory="true" max_length="32" name="device_type" type="string"/>
+        <element default="100" label="Health" mandatory="true" max_length="100" name="health" type="integer"/>
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element choice="1" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Maintenance" value="Maintenance"/>
+                <element inactive_on_update="false" label="Active" value="Active"/>
+                <element inactive_on_update="false" label="Offline" value="Offline"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f8efb2cac3d39610ebaef3cc050131f0" label="Incident" max_length="40" name="x_1590622_iot_inte_incident" type="collection">
+        <element label="Description" mandatory="true" max_length="300" name="description" type="string"/>
+        <element choice="1" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="100" value="New"/>
+                <element inactive_on_update="false" label="Resolved" sequence="300" value="Resolved"/>
+                <element inactive_on_update="false" label="Closed" sequence="400" value="Closed"/>
+                <element inactive_on_update="false" label="In Progress" sequence="200" value="In Progress"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Device ID" mandatory="true" max_length="32" name="device_id" reference="x_1590622_iot_inte_iot_devices" type="reference"/>
+        <index name="index">
+            <element name="device_id"/>
+        </index>
+    </element>
+</database>

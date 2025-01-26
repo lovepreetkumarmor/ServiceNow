@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="device_type" table="x_1590622_iot_inte_iot_devices" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>device_type</element>
+            <name>x_1590622_iot_inte_iot_devices</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-26 06:28:54</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>device_type</sys_name>
+            <sys_package display_value="IoT_Integration" source="x_1590622_iot_inte">f287de06c3139610ebaef3cc0501317c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IoT_Integration">f287de06c3139610ebaef3cc0501317c</sys_scope>
+            <sys_update_name>sys_choice_x_1590622_iot_inte_iot_devices_device_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-26 06:28:54</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>device_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Access Control Systems</label>
+            <language>en</language>
+            <name>x_1590622_iot_inte_iot_devices</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-26 06:30:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-26 06:30:44</sys_updated_on>
+            <value>Access Control Systems</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>device_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HVAC Systems</label>
+            <language>en</language>
+            <name>x_1590622_iot_inte_iot_devices</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-26 06:29:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-26 06:29:29</sys_updated_on>
+            <value>HVAC Systems</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>device_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lighting Systems</label>
+            <language>en</language>
+            <name>x_1590622_iot_inte_iot_devices</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-26 06:30:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-26 06:30:23</sys_updated_on>
+            <value>Lighting Systems</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>device_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Smart Meters</label>
+            <language>en</language>
+            <name>x_1590622_iot_inte_iot_devices</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-26 06:29:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-26 06:29:57</sys_updated_on>
+            <value>Smart Meters</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>device_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Smoke Detectors</label>
+            <language>en</language>
+            <name>x_1590622_iot_inte_iot_devices</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-26 06:28:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-26 06:28:54</sys_updated_on>
+            <value>Smoke Detectors</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
