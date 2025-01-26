@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bdb210dec35b9610ebaef3cc05013198" extends="sys_import_set_row" label="Imp Tmpl X 1590622 Iot Inte Event Table" max_length="40" name="u_imp_tmpl_x_1590622_iot_inte_event_table" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Event Type" label="Event Type" max_length="40" name="u_event_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Device ID" label="Device ID" max_length="32" name="u_device_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Event Occurred" label="Event Occurred" max_length="40" name="u_event_occurred" type="string"/>
+        <element attributes="import_attribute_name=Priority" label="Priority" max_length="40" name="u_priority" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Event Description" label="Event Description" max_length="300" name="u_event_description" type="string"/>
+    </element>
+</database>

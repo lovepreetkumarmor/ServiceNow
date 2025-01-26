@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="85649052c39b9610ebaef3cc05013101" extends="sys_import_set_row" label="Imp Tmpl X 1590622 Iot Inte Incident" max_length="40" name="u_imp_tmpl_x_1590622_iot_inte_incident" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Device ID" label="Device ID" max_length="32" name="u_device_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="300" name="u_description" type="string"/>
+    </element>
+</database>

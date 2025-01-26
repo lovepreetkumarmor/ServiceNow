@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ffef48dac35b9610ebaef3cc0501314f" extends="sys_import_set_row" label="Imp Tmpl X 1590622 Iot Inte Iot Devices" max_length="40" name="u_imp_tmpl_x_1590622_iot_inte_iot_devices" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Last Updated" label="Last Updated" max_length="40" name="u_last_updated" type="string"/>
+        <element attributes="import_attribute_name=Health" label="Health" max_length="100" name="u_health" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Device Type" label="Device Type" max_length="32" name="u_device_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Device Name" label="Device Name" max_length="32" name="u_device_name" type="string"/>
+    </element>
+</database>
